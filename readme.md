@@ -122,6 +122,7 @@ Crisis Resources → Helpline Access → Follow-up Check-ins
 
 ---
 
+
 ## Shema (Firebase)
 
 ```
@@ -341,7 +342,7 @@ service cloud.firestore {
 
 ## 🤖 **AI Components**
 
-### **AI Service Architecture (FastAPI)**
+### **AI Service Architecture (Gemini Developer API and Google ADK if needed in Firebase)**
 
 #### **1. Group Matching Agent** (`/match`)
 ```python
@@ -420,7 +421,7 @@ Respond with JSON:
 ---
 
 ## 📁 **Project Directory Structure**
-
+```
 murmr/
 ├── frontend/                        # React App (Next.js or CRA + Tailwind)
 │   ├── public/                      # Static assets (logos, icons, crisis JSON)
@@ -461,8 +462,10 @@ murmr/
 │   └── api-contracts.md             # Input/output of APIs
 │
 └── README.md
-
+```
 ---
+
+
 
 ## 🚀 **Quick Start Guide**
 
